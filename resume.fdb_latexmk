@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1758669434.66091 "/Users/jseo079/Documents/[1] Personal/resume/resume.tex" "resume.pdf" "resume" 1758669435.02093 0
-  "/Users/jseo079/Documents/[1] Personal/resume/resume.tex" 1758669434.47989 7808 b34837dc863b0a8f7198dc3e209b9883 ""
+["pdflatex"] 1758670157.98586 "/Users/jseo079/Documents/[1] Personal/resume/resume.tex" "resume.pdf" "resume" 1758670158.32647 0
+  "/Users/jseo079/Documents/[1] Personal/resume/resume.tex" 1758670157.8003 7238 f64cbc0888f112c527655997494bc528 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -85,9 +85,9 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1758668725 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1758668708 3345727 8038e0006e02c708111cb5b1bdfb276a ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "resume.aux" 1758669434.99002 711 d776b8cadf0903cda9f4356d8076bd81 "pdflatex"
-  "resume.out" 1758669434.99044 390 8178769a591dae54593be5dc5893bd68 "pdflatex"
-  "resume.tex" 1758669434.47989 7808 b34837dc863b0a8f7198dc3e209b9883 ""
+  "resume.aux" 1758670158.2979 711 d776b8cadf0903cda9f4356d8076bd81 "pdflatex"
+  "resume.out" 1758670158.2983 390 8178769a591dae54593be5dc5893bd68 "pdflatex"
+  "resume.tex" 1758670157.8003 7238 f64cbc0888f112c527655997494bc528 ""
   (generated)
   "resume.aux"
   "resume.log"
