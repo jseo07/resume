@@ -127,80 +127,83 @@
     \href{https://seojangwon.xyz}{\underline{seojangwon.xyz}}
 \end{center}
 
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+\resumeSubHeadingListStart
+  \item \small{
+    Data-focused Statistics student at the University of British Columbia with hands-on experience in \textbf{data visualization}, \textbf{ETL automation}, and \textbf{dashboard development}. Skilled in transforming raw datasets into clear insights using \textbf{Python}, \textbf{R}, \textbf{SQL}, and \textbf{Tableau}. Proven ability to design and deliver \textbf{interactive, data-driven tools} that support informed business decisions.
+  }
+\resumeSubHeadingListEnd
+
+
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
       {The University of British Columbia}{Vancouver, BC}
-      {3rd Year, Bachelor of Science in Statistics}{Expected Graduation: 2028}
+      {3rd Year, Bachelor of Science in Statistics}{Expected Graduation: 2027}
       \resumeItemListStart
         \resumeItem{\textbf{Relevant Coursework:} Data Science, Machine Learning, Probability, Statistical Inference, Regression Analysis, A/B Testing, Databases and Algorithms}
       \resumeItemListEnd
-  \resumeSubHeadingListEnd
-
-%-----------EXPERIENCE-----------
-\section{Experience}
-  \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {Contract Web Developer}{May 2025 -- Current}
-      {Remote}{}
-      \resumeItemListStart
-        \resumeItem{Designed and optimized end-to-end data pipelines, integrating public APIs for automated data ingestion, transformation, and validation.}
-        \resumeItem{Built ETL workflows with Python, Pandas, and NumPy to deliver accurate, up-to-date datasets for geospatial and tabular visualization.}
-        \resumeItem{Developed client-facing tools, enabling users to select regions on interactive maps and view API-powered data in geospatial and tabular visualizations, alongside CSV export features for decision-making.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Facility Manager }{Aug. 2022 -- May. 2024}
-      {Air Force Academy}{Cheongju, South Korea}
-      \resumeItemListStart
-        \resumeItem{Led and mentored a team of 8 soldiers while overseeing operational infrastructure.}
-        \resumeItem{Automated task management with Python, including scheduling system optimizing shift allocations, reducing manual workload and documenting processes for team use.}
-        \resumeItem{Applied constraint validation for fair and transparent scheduling, ensuring operational reliability.}
-    \resumeItemListEnd
-
   \resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\projtitle{Stock Dividend Trend Analysis and Predictive Modeling}{https://seojangwon.xyz/lstm}{link} \;}{}
+          {\projtitle{ETF Dividend Analysis and Predictive Modeling}{https://seojangwon.xyz/lstm}{link} \;}{}
           \resumeItemListStart
-            \resumeItem{Built Python ETL pipelines to process 10,000+ financial records across 10+ ETF tickers, resampling dividends and prices into structured datasets for predictive modeling and reporting.}
-            \resumeItem{Implemented an LSTM model in TensorFlow/Keras to predict dividends, achieving 83.42\% accuracy.}
-            \resumeItem{Optimized performance with the Adam optimizer and applied scikit-learn evaluation metrics, reducing MSE and improving accuracy by ~99\% vs. SGD baseline.}
-            \resumeItem{Developed a Tableau dashboard to visualize historical and LSTM-predicted ETF dividends with dynamic ticker filtering and KPIs.}
+            \resumeItem{Built Python ETL pipelines to process 10{,}000+ financial records from 10+ ETF tickers for reporting and trend analysis.}
+            \resumeItem{Implemented an LSTM model in TensorFlow/Keras to forecast dividend payouts, achieving an RMSE of 0.047 and improving reporting accuracy through automated data ingestion and cleaning with Pandas and NumPy.}
+            \resumeItem{Developed a Tableau dashboard visualizing dividend trends and LSTM-predicted values with dynamic filtering and KPIs.}
             \resumeItemListEnd
       \resumeProjectHeading
-          {\projtitle{GAN for Composite Generation with User judgment/preferences}{https://seojangwon.xyz/gan}{link}}{}
+          {\projtitle{Coffee Quality \& Specialty Classification}{https://seojangwon.xyz/coffee}{link}}{}
           \resumeItemListStart
-            \resumeItem{Applied GAN to generate facial composites from eyewitness input, tuning parameters to enhance resemblance.}
-            \resumeItem{Utilized PyTorch/NumPy for model integration and Matplotlib for post-analysis visualization.}
+            \resumeItem{Analyzed CQI coffee data to identify quality patterns across origin, altitude, variety, and processing using EDA and statistical testing.}
+            \resumeItem{Conducted ANOVA to evaluate country- and variety-level differences in quality scores.}
+            \resumeItem{Built an interactive Tableau dashboard visualizing specialty rates and quality distributions.}
+            \resumeItemListEnd
+      \resumeProjectHeading
+          {\projtitle{GAN for Composite Generation (User Input-Driven)}{https://seojangwon.xyz/gan}{link}}{}
+          \resumeItemListStart
+            \resumeItem{Applied GANs to generate composite images based on user feedback using PyTorch.}
             \resumeItem{Designed a latent-space optimization guided by user ratings to iteratively improve similarity of output.}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\projtitle{PC Gamer Newsletter Subscription Prediction}{https://seojangwon.xyz/knn}{link}}{}
-          \resumeItemListStart
-            \resumeItem{Collaborated with a team to preprocess player age \& playtime data from a Minecraft server; built a KNN classifier in R, tuning neighbors via cross-validation.}
-            \resumeItem{Evaluated accuracy/precision/recall on a test set and delivered stakeholder insights with visualizations of playtime patterns.}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\projtitle{Kaggle Competitions}{https://www.kaggle.com/jseo079}{link}}{}
-          \resumeItemListStart
-            \resumeItem{Housing Price Prediction (Regression Models): Compared linear regression, decision trees, and random forest; implemented random forest to predict housing prices based on multiple features.}
-            \resumeItem{LLM Response Classification (NLP): Built TF-IDF + multinomial logistic regression pipelines with ensemble averaging, evaluated via 5-fold CV (accuracy/log-loss) to classify chatbot responses.}
-          \resumeItemListEnd
+            \resumeItem{Analyzed model performance visually and statistically using Matplotlib and NumPy.}
+            \resumeItemListEnd
     \resumeSubHeadingListEnd
+
+    
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Contract Web Developer}{May 2025 -- Present}
+      {Remote}{Canada, South Korea}
+      \resumeItemListStart
+        \resumeItem{Collaborated with clients to design web-based business solutions integrating data analytics and visualization for operational insights.}
+        \resumeItem{Built public API-driven data pipelines using Python to collect, clean, and refresh geospatial and tabular datasets powering interactive dashboards.}
+        \resumeItem{Integrated Web Map Service layers into a dynamic map interface, enabling users to highlight land areas, visualize regional data patterns, and export results to CSV.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Facility Manager}{Aug. 2022 -- May. 2024}
+      {Air Force Academy}{Cheongju, South Korea}
+      \resumeItemListStart
+        \resumeItem{Led a team of 8 soldiers and automated scheduling using Python, reducing manual workload.}
+        \resumeItem{Implemented constraint validation ensuring fair, transparent shift allocation.}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
 
 %-----------PROGRAMMING SKILLS-----------
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Python, R, SQL, C++, Java, JavaScript, HTML/CSS} \\
-     \textbf{Data \& ML}{: PyTorch, Scikit-learn, Pandas, NumPy, TensorFlow, Matplotlib, Plotly, Tableau \href{https://public.tableau.com/app/profile/jangwon.seo3562/vizzes}{\faIcon{link}}, PowerBI} \\
-     \textbf{Tools}{: Microsoft Excel, Django, MySQL, Git, Azure, Heroku} \\
+     \textbf{Languages}{: Python, R, SQL} \\
+     \textbf{Data \& Visualization}{: Tableau \href{https://public.tableau.com/app/profile/jangwon.seo3562/vizzes}{\faIcon{link}}, PowerBI, Pandas, NumPy, Matplotlib, Plotly} \\
+     \textbf{Tools}{: Excel, Django, MySQL, Git, Azure, Heroku} \\
     }}
  \end{itemize}
 

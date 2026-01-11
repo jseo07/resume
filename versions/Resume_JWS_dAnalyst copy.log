@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.23)  9 NOV 2025 19:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.23)  17 NOV 2025 19:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/tjwkd/Documents/resume/resume.tex
-(c:/Users/tjwkd/Documents/resume/resume.tex
+**"c:/Users/tjwkd/Documents/resume/versions/Resume_JWS_dAnalyst copy.tex"
+(c:/Users/tjwkd/Documents/resume/versions/Resume_JWS_dAnalyst copy.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
 (c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -264,8 +264,8 @@ Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
 Package: xparse 2024-08-16 L3 Experimental document command parser
 ) (c:/texlive/2025/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-helper.sty
 Package: fontawesome5-generic-helper 2022/05/02 v5.15.4 non-uTeX helper for fontawesome5
- (c:/texlive/2025/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def))) (./resume.aux)
-\openout1 = `resume.aux'.
+ (c:/texlive/2025/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def))) (./Resume_JWS_dAnalyst copy.aux)
+\openout1 = `"Resume_JWS_dAnalyst copy.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
 LaTeX Font Info:    ... okay on input line 111.
@@ -305,30 +305,30 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring OFF on input line 111.
- (./resume.out) (./resume.out)
+ (./Resume_JWS_dAnalyst copy.out) (./Resume_JWS_dAnalyst copy.out)
 \@outlinefile=\write3
-\openout3 = `resume.out'.
+\openout3 = `"Resume_JWS_dAnalyst copy.out"'.
 
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 124.
+(Font)              using `OT1/cmr/bx/n' instead on input line 123.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 125.
+(Font)              <7> on input line 124.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 125.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 125.
+(Font)              <5> on input line 124.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 124.
 (c:/texlive/2025/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 135.
+(Font)              <10.95> on input line 142.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 135.
+(Font)              <8> on input line 142.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 135.
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 169.
+(Font)              <6> on input line 142.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 176.
  (c:/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
 
 
@@ -336,14 +336,14 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 4.08003pt, for example:
 (fancyhdr)                \setlength{\footskip}{4.08003pt}.
 
-<footer.png, id=32, 614.295pt x 72.27pt>
+<footer.png, id=34, 614.295pt x 72.27pt>
 File: footer.png Graphic file (type png)
 <use footer.png>
 Package pdftex.def Info: footer.png  used on input line 208.
 (pdftex.def)             Requested size: 426.79134pt x 43.2377pt.
 [1
 
-{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc} <./footer.png>] (./resume.aux)
+{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc} <./footer.png>] (./Resume_JWS_dAnalyst copy.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -352,22 +352,22 @@ L3 programming layer <2025-09-02>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 8178769A591DAE54593BE5DC5893BD68;390.
+Package rerunfilecheck Info: File `"Resume_JWS_dAnalyst copy".out' has not changed.
+(rerunfilecheck)             Checksum: 735A04494D7F3153A93E1603B4BAC2BE;536.
  ) 
 Here is how much of TeX's memory you used:
  14443 strings out of 467797
- 247402 string characters out of 5435982
- 677474 words of memory out of 5000000
- 42925 multiletter control sequences out of 15000+600000
+ 247831 string characters out of 5435982
+ 677568 words of memory out of 5000000
+ 42924 multiletter control sequences out of 15000+600000
  632728 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,310b,462s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,448b,462s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (1 page, 129049 bytes).
+Output written on "Resume_JWS_dAnalyst copy.pdf" (1 page, 131191 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
- 44 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 92 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
+ 52 words of extra memory for PDF output out of 10000 (max. 10000000)
 

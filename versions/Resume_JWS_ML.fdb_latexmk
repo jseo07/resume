@@ -1,6 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1762744274.65631 "c:/Users/tjwkd/Documents/resume/resume.tex" "resume.pdf" "resume" 1762744276.24633 0
-  "c:/Users/tjwkd/Documents/resume/resume.tex" 1762744272 8897 700b7fcff52e5e5a6388450cff36bab1 ""
+["pdflatex"] 1766438895.26288 "c:/Users/tjwkd/Documents/resume/versions/Resume_JWS_ML.tex" "Resume_JWS_ML.pdf" "Resume_JWS_ML" 1766438896.56043 0
+  "Resume_JWS_ML.aux" 1766438896 833 d4097a38fdf6e6aff27131e14ff03263 "pdflatex"
+  "Resume_JWS_ML.out" 1766438896 564 2e019fb93a5f956886a6e4f0fccbd078 "pdflatex"
+  "Resume_JWS_ML.tex" 1766438894 8553 d38f9535c7346212aa6be3b957d337b7 ""
+  "c:/Users/tjwkd/Documents/resume/versions/Resume_JWS_ML.tex" 1766438894 8553 d38f9535c7346212aa6be3b957d337b7 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc" 1758681245 2906 e48aa7c95dea478a2e011bcb4f7878c9 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1758681261 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1758679944 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -99,12 +102,9 @@
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1758686883 3621638 cac2bba18cf47e74fbb0a6de4469d601 ""
   "c:/texlive/2025/texmf.cnf" 1758686585 713 e69b156964470283e0530f5060668171 ""
   "footer.png" 1758863697 18830 afe880602b3c6ca60cd0c80cd223027d ""
-  "resume.aux" 1762744276 711 d776b8cadf0903cda9f4356d8076bd81 "pdflatex"
-  "resume.out" 1762744276 390 8178769a591dae54593be5dc5893bd68 "pdflatex"
-  "resume.tex" 1762744272 8897 700b7fcff52e5e5a6388450cff36bab1 ""
   (generated)
-  "resume.aux"
-  "resume.log"
-  "resume.out"
-  "resume.pdf"
+  "Resume_JWS_ML.aux"
+  "Resume_JWS_ML.log"
+  "Resume_JWS_ML.out"
+  "Resume_JWS_ML.pdf"
   (rewritten before read)
