@@ -148,29 +148,31 @@
 
   %-----------PROJECTS-----------
 \section{Projects}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\projtitle{ETF Dividend Forecasting with LSTM Neural Networks}{https://seojangwon.xyz/lstm}{link} \;}{}
-          \resumeItemListStart
-            \resumeItem{Built automated ETL pipelines to aggregate and clean financial data for model training and evaluation.}
-            \resumeItem{Implemented an LSTM architecture in \textbf{TensorFlow/Keras}, achieving an \textbf{RMSE of 0.047}, demonstrating strong predictive accuracy.}
-            \resumeItem{Optimized model performance with the Adam optimizer and evaluated results using scikit-learn metrics.}
-            \resumeItemListEnd
-      \resumeProjectHeading
-          {\projtitle{GAN for Composite Generation with User Feedback}{https://seojangwon.xyz/gan}{link}}{}
-          \resumeItemListStart
-            \resumeItem{Trained a GAN using \textbf{PyTorch} to generate facial composites from eyewitness feedback.}
-            \resumeItem{Developed a latent-space optimization loop guided by user ratings to improve output resemblance.}
-            \resumeItem{Visualized model performance through feature distribution plots and generated image comparisons.}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\projtitle{Coffee Quality \& Specialty Classification}{https://seojangwon.xyz/coffee}{link}}{}
-          \resumeItemListStart
-            \resumeItem{Built a reproducible ML pipeline for specialty coffee classification, including preprocessing, model training, and hyperparameter tuning.}
-            \resumeItem{Optimized a Random Forest model with class imbalance handling and custom thresholding.}
-            \resumeItem{Integrated SHAP for model explainability and feature contribution validation.}
-          \resumeItemListEnd
-    \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+      {\projtitle{ETF Dividend Forecasting with LSTM Neural Networks}{https://seojangwon.xyz/lstm}{link}}{}
+      \resumeItemListStart
+        \resumeItem{Built automated ETL pipelines to collect and preprocess financial data from multiple ETF tickers for time series modeling.}
+        \resumeItem{Trained and tuned an LSTM architecture in TensorFlow/Keras, achieving an RMSE of 0.047 and outperforming baseline regression models.}
+        \resumeItem{Enhanced predictive accuracy through feature scaling, temporal cross-validation, and performance evaluation using scikit-learn metrics.}
+      \resumeItemListEnd
+
+  \resumeProjectHeading
+      {\projtitle{GAN for Composite Generation with User Feedback}{https://seojangwon.xyz/gan}{link}}{}
+      \resumeItemListStart
+        \resumeItem{Utilized a pre-trained GAN in PyTorch to generate facial composites through feedback-guided latent-space optimization.}
+        \resumeItem{Integrated user ratings into an iterative refinement loop to improve image similarity and optimize latent representations.}
+        \resumeItem{Evaluated convergence via Euclidean distance in latent space and visualized progression through image comparisons and feature plots.}
+      \resumeItemListEnd
+
+  \resumeProjectHeading
+      {\projtitle{Coffee Quality and Specialty Classification}{https://seojangwon.xyz/coffee}{link}}{}
+      \resumeItemListStart
+        \resumeItem{Developed an end-to-end ML pipeline for coffee quality prediction using regression and tree-based models, achieving ROC-AUC of 0.71.}
+        \resumeItem{Performed hypothesis testing and ANOVA to validate key predictors of cup quality.}
+        \resumeItem{Applied SHAP for feature attribution and interpretability, identifying key contributors to specialty classification.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
 
 
 %-----------EXPERIENCE-----------

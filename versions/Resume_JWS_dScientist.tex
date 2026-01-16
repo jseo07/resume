@@ -148,30 +148,32 @@
 
   %-----------PROJECTS-----------
 \section{Projects}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\projtitle{ETF Dividend Forecasting with LSTM Neural Networks}{https://seojangwon.xyz/lstm}{link} \;}{}
-          \resumeItemListStart
-            \resumeItem{Built Python ETL pipelines to process 10{,}000+ financial records from 10+ ETF tickers into feature-ready dataset.}
-            \resumeItem{Performed \textbf{exploratory data analysis (EDA)} on dividend time series to identify seasonality and volatility patterns before model training.}
-            \resumeItem{Trained an LSTM model in \textbf{TensorFlow/Keras} achieving an \textbf{RMSE of 0.047} on test data, improving baseline accuracy.}
-            \resumeItem{Evaluated model performance and visualized predictions versus actual dividends in Tableau.}
-            \resumeItemListEnd
-      \resumeProjectHeading
-          {\projtitle{GAN for Composite Generation with User Feedback}{https://seojangwon.xyz/gan}{link}}{}
-          \resumeItemListStart
-            \resumeItem{Applied generative adversarial network (GAN) using \textbf{PyTorch} to synthesize facial composites from user input.}
-            \resumeItem{Optimized the latent-space guided by user ratings to iteratively enhance output similarity.}
-            \resumeItem{Visualized model training results and convergence patterns with Matplotlib and NumPy.}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\projtitle{Coffee Quality \& Specialty Classification}{https://seojangwon.xyz/coffee}{link}}{}
-          \resumeItemListStart
-            \resumeItem{Framed specialty coffee identification as a metadata-only classification problem to avoid information leakage.}
-            \resumeItem{Trained and compared Logistic Regression, Random Forest, and SVC models. Tuned Random Forest to achieve ROC AUC $\approx$ 0.71.}
-            \resumeItem{Used SHAP to interpret model predictions and identify key drivers of specialty likelihood.}
-          \resumeItemListEnd
-    \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+      {\projtitle{ETF Dividend Analysis and Predictive Modeling}{https://seojangwon.xyz/lstm}{link}}{}
+      \resumeItemListStart
+        \resumeItem{Built Python ETL pipelines to process 10{,}000+ financial records from 10+ ETF tickers, transforming raw data into feature-ready time series.}
+        \resumeItem{Trained and tuned an LSTM model in TensorFlow/Keras for dividend forecasting, achieving an RMSE of 0.047 and surpassing baseline regressions.}
+        \resumeItem{Applied feature scaling, windowed sequence generation, and temporal cross-validation to improve model generalization; visualized results with Matplotlib.}
+      \resumeItemListEnd
+
+  \resumeProjectHeading
+      {\projtitle{GAN for Composite Generation (User Input–Driven)}{https://seojangwon.xyz/gan}{link}}{}
+      \resumeItemListStart
+        \resumeItem{Utilized a pre-trained PyTorch GAN to generate facial composites through feedback-guided latent-space optimization.}
+        \resumeItem{Implemented feedback-guided optimization using user ratings to refine outputs toward target images.}
+        \resumeItem{Measured convergence using Euclidean distance in latent space and visualized optimization trajectories with Matplotlib and NumPy.}
+      \resumeItemListEnd
+
+  \resumeProjectHeading
+      {\projtitle{Coffee Quality and Specialty Classification}{https://seojangwon.xyz/coffee}{link}}{}
+      \resumeItemListStart
+        \resumeItem{Classified 1{,}300+ coffee samples using regression and tree-based models, achieving ROC-AUC of 0.71.}
+        \resumeItem{Validated key quality predictors through hypothesis testing and ANOVA.}
+        \resumeItem{Applied feature engineering and SHAP interpretability to identify major contributors to cup quality.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
 
 
 %-----------EXPERIENCE-----------
